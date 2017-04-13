@@ -43,7 +43,7 @@
         }
         if (objects[i] == nil) {
             hasNilObject = YES;
-            NSLog(@"%s object at index %lu is nil, it will be     filtered", __FUNCTION__, i);
+            NSLog(@"%s object at index %d is nil, it will be     filtered", __FUNCTION__, i);
             
             #if DEBUG
                   // 对数组中为nil的元素信息打印出来
