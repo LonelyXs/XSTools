@@ -95,7 +95,7 @@ Pod::Spec.new do |s|
   # s.public_header_files = "Classes/**/*.h"
  
  s.subspec 'Set+Safe' do |ss|
-      ss.source_files = 'XSTools/XSTools/Set+Safe/*.{h,m}'
+      ss.source_files = 'Set+Safe/*'
   end
 
 
